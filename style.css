@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 15px;
+}
+
+.container {
+    margin: 2rem auto;
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+}
+
+.top-container {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.description-container {
+    width: 40%;
+    margin-right: 5rem;
+}
+
+.title {
+    color: hsl(300, 43%, 22%);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.subtitle {
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.feedback-container {
+    width: 60%;
+}
+
+.feedback-container p {
+    margin-left: 0.5rem;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.feedback1,
+.feedback2,
+.feedback3 {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: hsla(302, 10%, 53%, 0.15);
+    border-radius: 5px;
+    width: 300px;
+}
+
+.feedback2 {
+    margin-left: 3rem;
+}
+
+.feedback3 {
+    margin-left: 5rem;
+}
+
+.comments-container {
+    display: flex;
+}
+
+.comment1,
+.comment2,
+.comment3 {
+    background-color: hsl(300, 43%, 22%);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    height: 180px;
+    line-height: 120%;
+}
+
+.comment2 {
+    margin-top: 2rem;
+}
+
+.comment3 {
+    margin-top: 4rem;
+}
+
+.comments-container {
+    color: hsl(0, 0%, 100%);
+}
+
+.comment1-header,
+.comment2-header,
+.comment3-header {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.name {
+    color: hsl(333, 80%, 67%);
+}
+
+.bottom-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media screen and (max-width:500px) {
+    body {
+        background-image: url(images/bg-pattern-top-mobile.svg);
+    }
+    .container {
+        background-image: url(images/bg-pattern-bottom-mobile.svg);
+        margin: 1rem;
+        padding: 0;
+        width: 330px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-container {
+        display: block;
+        margin: 1rem;
+    }
+
+    .description-container {
+        margin: 0;
+        width: 100%;
+    }
+
+   .subtitle {
+    padding: 1rem;
+   }
+
+    .feedback1,
+    .feedback2,
+    .feedback3 {
+        display: block;
+        margin: 0.5rem;
+    }
+
+    .comments-container {
+        display: block;
+    }
+
+    .comment1,
+    .comment2,
+    .comment3 {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+  }
+
+  
